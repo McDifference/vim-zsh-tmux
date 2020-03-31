@@ -9,3 +9,11 @@ cd ~/.vim/bundle/YouCompleteMe
 
 
 cp -rf ~/.vim/bundle/gruvbox/colors ~/.vim/
+
+Ubuntu
+
+Failed to connect to raw.githubusercontent.com port 443: Connection refused
+
+DNS
+
+sudo /etc/init.d/nscd restart
