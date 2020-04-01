@@ -59,9 +59,13 @@ cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 plugins=(
+
     git
+    
     zsh-autosuggestions
+    
     zsh-syntax-highlighting
+    
 )
 
 source $ZSH/oh-my-zsh.sh
