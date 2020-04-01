@@ -46,9 +46,9 @@ cd fonts
 
 ./install.sh
 
-iTerm2 cmd+i
+iTerm2 -> Preferences -> Profile -> Colors -> Color Presets -> Gruvbox Dark
 
-Text->Font->Meslo LG M for Powerline
+iTerm2 -> Preferences -> Profile -> Text -> Font -> Meslo LG M for Powerline
 
 cd ~/.oh-my-zsh/custom/plugins/
 
