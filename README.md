@@ -24,6 +24,31 @@ DNS
 
 sudo /etc/init.d/nscd restart
 
+git clone https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor.git
+
+cd oh-my-zsh-agnoster-fcamblor/
+
+./install
+
+ZSH_THEME="agnoster"
+
 iTerm2
 
 https://github.com/mbadolato/iTerm2-Color-Schemes
+
+Powerline
+
+pip3 install powerline-status --user
+
+git clone https://github.com/powerline/fonts.git --depth=1
+
+cd fonts
+
+./install.sh
+
+iTerm2 cmd+i
+
+Text->Font->Meslo LG M for Powerline
+
+
+
