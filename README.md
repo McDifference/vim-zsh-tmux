@@ -78,7 +78,16 @@ alias vim='mvim -v'
 
 ~/.tmux.conf
 
+Ubuntu
 
+sudo mkdir -p /usr/share/fonts/monaco
 
+sudo mv monaco.ttf /usr/share/fonts/monaco
 
+sudo chmod 744 /usr/share/fonts/monaco/monaco.ttf
 
+sudo mkfontscale
+
+sudo mkfontdir
+
+sudo fc-cache -fv
