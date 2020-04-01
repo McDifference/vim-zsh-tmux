@@ -12,8 +12,18 @@ cp -rf ~/.vim/bundle/gruvbox/colors ~/.vim/
 
 Ubuntu
 
+oh my zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 Failed to connect to raw.githubusercontent.com port 443: Connection refused
 
 DNS
 
 sudo /etc/init.d/nscd restart
+
+iTerm2
+
+https://github.com/mbadolato/iTerm2-Color-Schemes
