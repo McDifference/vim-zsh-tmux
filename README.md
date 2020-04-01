@@ -91,3 +91,8 @@ sudo mkfontscale
 sudo mkfontdir
 
 sudo fc-cache -fv
+
+Powerline
+
+sudo apt-get install fonts-powerline
+
