@@ -96,3 +96,15 @@ Powerline
 
 sudo apt-get install fonts-powerline
 
+Ubuntu Gnome Terminal
+
+https://github.com/metalelf0/gnome-terminal-colors
+
+sudo apt-get install dconf-cli
+
+git clone https://github.com/metalelf0/gnome-terminal-colors.git
+
+cd gnome-terminal-colors
+
+./install.sh
+
