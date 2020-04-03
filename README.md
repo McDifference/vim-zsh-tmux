@@ -108,8 +108,7 @@ cd gnome-terminal-colors
 
 ./install.sh
 
-prevent killing tmux sessions accidentally by Ctrl+d
+prevent accidental logout by hitting Ctrl+d
 
-unbind C-d                                                                                                                                                                                                                            
-bind -n C-d confirm-before -p "kill-pane #P? (y/n)" kill-pane
+setopt ignoreeof
 
